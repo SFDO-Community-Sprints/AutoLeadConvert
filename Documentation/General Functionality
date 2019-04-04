@@ -1,0 +1,17 @@
+<h1>Auto Lead conversion Basics</h1>
+
+Trigger lead conversion based on:
+Configurable criteria for what should trigger the Conversion. Process builder entrance criteria approach.
+OR: Direct trigger (Approachable via PB, Flow, Apex, API)
+
+Configurable what happens during the conversion e.g.
+Create contact and account
+Set Record types (household)
+Create an opportunity
+Create Recurring gift
+
+General considerations
+Order of execution: First convert, then create and relate new record. This is the most flexible. 
+When triggered via API, API should give back ContactID
+Incorporate depublication rules 
+
