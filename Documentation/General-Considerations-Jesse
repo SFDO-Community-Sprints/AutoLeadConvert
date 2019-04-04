@@ -1,4 +1,5 @@
 
-- Order of execution: First convert, then create and relate new record. This is the most flexible. 
+- Order of execution: First convert, then create and relate new record. This is the most flexible
+- Convert Function should be added to default SOAP API of Salesforce
 - When triggered via API, API should give back ContactID
 - Incorporate depublication rules 
