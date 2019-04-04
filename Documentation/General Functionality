@@ -1,13 +1,16 @@
-Auto Lead conversion Basics
+Authors: Ronak Mehta & Jesse Hoosemans
 
-Trigger lead conversion based on:
-* Configurable criteria for what should trigger the Conversion. Process builder entrance criteria approach.
-* OR: Direct trigger (Approachable via PB, Flow, Apex, REST API)
+Visual Human-Readable Form: Defines criteria for lead conversion trigger with the following options:
+[Required]
+- Criteria: Field update (Select which fields to look at and what values they should have)
+- Create Opportunity or not (could be conditional)
+- What to do when multiple matching Accounts or Contacts found?
+- What Lead Status to set the lead to after conversion
+- Run schedule: Instantaneous, Hourly, Daily
+- Error Handling: Notify user
 
-Configurable what happens during/afer the conversion e.g.
-* Create contact and account
-* Set Record types (household)
-* Create an opportunity
-* Create Recurring gift
-* Create Any opbject (Custom) 
-* ? Conditional config based on criteria on the Lead (e.g. Based on field on Lead create Opp. OR not)
+[Optional]
+- Set Account Owner to someone other than Lead Owner 
+- What Account and Contact Record Types to select
+- Create Rucurring Gift
+- Create <Custom Object> records
