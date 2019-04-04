@@ -9,4 +9,5 @@ Configurable what happens during/afer the conversion e.g.
 * Set Record types (household)
 * Create an opportunity
 * Create Recurring gift
+* Create Any opbject (Custom) 
 * ? Conditional config based on criteria on the Lead (e.g. Based on field on Lead create Opp. OR not)
