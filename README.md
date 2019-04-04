@@ -3,7 +3,7 @@
 
 #### Team Members:
 
-* Jesse Hoosemans
+* Jesse Hoosemans - hooseman@unhcr.org or mail@jessehoosemans.com @Jessman
 * ?Who is the Group Leader(s)? If none, who should be the main point of contact after the sprint? This may be Community members looking to contribute after the fact, or Salesforce.org staff looking for more information.
 
 #### Project Overview:
