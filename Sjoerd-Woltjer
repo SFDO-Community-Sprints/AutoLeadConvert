@@ -1,1 +1,19 @@
+As an NPSP user I would like to be able to convert a lead automatically, so I don't have to do it manually.
+
+- Needs to be flexible 
+- Needs to be able to interact with existing no-code tools like Process builder or Flow
+
+
+Cookbook idea:
+
+Include an Apex class in the NPSP/HEDA which can be called from a PB or Flow which will convert the lead to the contact.
+
+Process:
+
+1. Create Process Builder where you set the criteria on which you want lead to be converted to a contact
+2. As a final action in the PB, call the Apex class 
+3. Update the newly created contact/opportunity additionally with values from the lead using process builder again
+4. ???
+5. Profit
+
 
