@@ -1,1 +1,4 @@
 
+- Order of execution: First convert, then create and relate new record. This is the most flexible. 
+- When triggered via API, API should give back ContactID
+- Incorporate depublication rules 
